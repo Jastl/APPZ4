@@ -1,0 +1,5 @@
+D:\Projects\VisualStudio\APPZ4\FitnessClub.BLL\obj\Debug\net9.0\FitnessClub.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\VisualStudio\APPZ4\FitnessClub.BLL\obj\Debug\net9.0\FitnessClub.BLL.AssemblyInfoInputs.cache
+D:\Projects\VisualStudio\APPZ4\FitnessClub.BLL\obj\Debug\net9.0\FitnessClub.BLL.AssemblyInfo.cs
+D:\Projects\VisualStudio\APPZ4\FitnessClub.BLL\obj\Debug\net9.0\FitnessClub.BLL.csproj.CoreCompileInputs.cache
+D:\Projects\VisualStudio\APPZ4\FitnessClub.BLL\obj\Debug\net9.0\FitnessClub.BLL.csproj.AssemblyReference.cache

@@ -1,0 +1,42 @@
+<Page x:Class="FitnessClub.UI.Pages.MembersPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Members">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,10">
+            <Button x:Name="btnAddMember" Content="Add Member" Click="btnAddMember_Click" 
+                    Margin="0,0,10,0" Padding="10,5"/>
+            <Button x:Name="btnRefresh" Content="Refresh" Click="btnRefresh_Click" 
+                    Padding="10,5"/>
+        </StackPanel>
+
+        <DataGrid x:Name="membersGrid" Grid.Row="1" AutoGenerateColumns="False" 
+                  IsReadOnly="True" SelectionMode="Single">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="First Name" Binding="{Binding FirstName}" Width="*"/>
+                <DataGridTextColumn Header="Last Name" Binding="{Binding LastName}" Width="*"/>
+                <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="*"/>
+                <DataGridTextColumn Header="Phone" Binding="{Binding Phone}" Width="*"/>
+                <DataGridTemplateColumn Header="Actions" Width="300">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Content="Edit" Click="btnEditMember_Click" 
+                                        Margin="0,0,5,0" Padding="10,0"/>
+                                <Button Content="Delete" Click="btnDeleteMember_Click" 
+                                        Margin="0,0,5,0" Padding="10,0"/>
+                                <Button Content="View Memberships" Click="btnViewMemberships_Click" 
+                                        Padding="10,0"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Page> 

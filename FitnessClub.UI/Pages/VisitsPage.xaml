@@ -1,0 +1,29 @@
+<Page x:Class="FitnessClub.UI.Pages.VisitsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Visits">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10">
+            <Button x:Name="btnRegisterVisit" Content="Register Visit" Click="btnRegisterVisit_Click" Margin="0,0,10,0"/>
+            <Button x:Name="btnRefresh" Content="Refresh" Click="btnRefresh_Click"/>
+        </StackPanel>
+
+        <DataGrid x:Name="visitsGrid" 
+                  Grid.Row="1" 
+                  AutoGenerateColumns="False" 
+                  IsReadOnly="True"
+                  Margin="10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Client" Binding="{Binding Client.FirstName}" Width="*"/>
+                <DataGridTextColumn Header="Club" Binding="{Binding Club.Name}" Width="*"/>
+                <DataGridTextColumn Header="Membership" Binding="{Binding Membership.Type}" Width="*"/>
+                <DataGridTextColumn Header="Visit Time" Binding="{Binding VisitTime}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Page> 

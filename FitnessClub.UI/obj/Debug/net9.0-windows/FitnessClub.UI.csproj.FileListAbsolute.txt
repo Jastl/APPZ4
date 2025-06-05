@@ -1,0 +1,4 @@
+D:\Projects\VisualStudio\APPZ4\FitnessClub.UI\obj\Debug\net9.0-windows\MainWindow.g.cs
+D:\Projects\VisualStudio\APPZ4\FitnessClub.UI\obj\Debug\net9.0-windows\App.g.cs
+D:\Projects\VisualStudio\APPZ4\FitnessClub.UI\obj\Debug\net9.0-windows\FitnessClub.UI_MarkupCompile.cache
+D:\Projects\VisualStudio\APPZ4\FitnessClub.UI\obj\Debug\net9.0-windows\FitnessClub.UI_MarkupCompile.lref

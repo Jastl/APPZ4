@@ -1,0 +1,36 @@
+﻿<Window x:Class="FitnessClub.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FitnessClub.UI"
+        mc:Ignorable="d"
+        Title="Fitness Club Management" Height="600" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Clubs">
+                <MenuItem Header="View Clubs" Click="ViewClubs_Click"/>
+                <MenuItem Header="Add Club" Click="AddClub_Click"/>
+            </MenuItem>
+            <MenuItem Header="Members">
+                <MenuItem Header="View Members" Click="ViewMembers_Click"/>
+                <MenuItem Header="Add Member" Click="AddMember_Click"/>
+            </MenuItem>
+            <MenuItem Header="Memberships">
+                <MenuItem Header="View Memberships" Click="ViewMemberships_Click"/>
+                <MenuItem Header="Add Membership" Click="AddMembership_Click"/>
+            </MenuItem>
+            <MenuItem Header="Schedule">
+                <MenuItem Header="View Schedule" Click="ViewSchedule_Click"/>
+                <MenuItem Header="Make Reservation" Click="MakeReservation_Click"/>
+            </MenuItem>
+            <MenuItem Header="Visits">
+                <MenuItem Header="View Visits" Click="ViewVisits_Click"/>
+                <MenuItem Header="Register Visit" Click="RegisterVisit_Click"/>
+            </MenuItem>
+        </Menu>
+        
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+    </DockPanel>
+</Window>

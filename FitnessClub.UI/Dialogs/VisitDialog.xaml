@@ -1,0 +1,40 @@
+<Window x:Class="FitnessClub.UI.VisitDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Register Visit" Height="300" Width="400"
+        WindowStartupLocation="CenterOwner">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" Content="Client:" Margin="0,0,10,5"/>
+        <ComboBox Grid.Row="0" Grid.Column="1" 
+                  x:Name="clientComboBox"
+                  DisplayMemberPath="FirstName"
+                  SelectedValuePath="Id"
+                  SelectionChanged="clientComboBox_SelectionChanged"
+                  Margin="0,0,0,5"/>
+
+        <Label Grid.Row="1" Grid.Column="0" Content="Membership:" Margin="0,0,10,5"/>
+        <ComboBox Grid.Row="1" Grid.Column="1" 
+                  x:Name="membershipComboBox"
+                  DisplayMemberPath="Type"
+                  SelectedValuePath="Id"
+                  Margin="0,0,0,5"/>
+
+        <StackPanel Grid.Row="3" Grid.ColumnSpan="2" 
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Right">
+            <Button x:Name="btnSave" Content="Save" Click="btnSave_Click" Width="70" Margin="0,0,10,0"/>
+            <Button x:Name="btnCancel" Content="Cancel" Click="btnCancel_Click" Width="70"/>
+        </StackPanel>
+    </Grid>
+</Window> 

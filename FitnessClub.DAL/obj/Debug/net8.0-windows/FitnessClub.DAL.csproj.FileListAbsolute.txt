@@ -1,0 +1,14 @@
+D:\Projects\VisualStudio\APPZ4\FitnessClub.DAL\bin\Debug\net8.0-windows\FitnessClub.DAL.deps.json
+D:\Projects\VisualStudio\APPZ4\FitnessClub.DAL\bin\Debug\net8.0-windows\FitnessClub.DAL.runtimeconfig.json
+D:\Projects\VisualStudio\APPZ4\FitnessClub.DAL\bin\Debug\net8.0-windows\FitnessClub.DAL.dll
+D:\Projects\VisualStudio\APPZ4\FitnessClub.DAL\bin\Debug\net8.0-windows\FitnessClub.DAL.pdb
+D:\Projects\VisualStudio\APPZ4\FitnessClub.DAL\obj\Debug\net8.0-windows\FitnessClub.DAL.csproj.AssemblyReference.cache
+D:\Projects\VisualStudio\APPZ4\FitnessClub.DAL\obj\Debug\net8.0-windows\FitnessClub.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\VisualStudio\APPZ4\FitnessClub.DAL\obj\Debug\net8.0-windows\FitnessClub.DAL.AssemblyInfoInputs.cache
+D:\Projects\VisualStudio\APPZ4\FitnessClub.DAL\obj\Debug\net8.0-windows\FitnessClub.DAL.AssemblyInfo.cs
+D:\Projects\VisualStudio\APPZ4\FitnessClub.DAL\obj\Debug\net8.0-windows\FitnessClub.DAL.csproj.CoreCompileInputs.cache
+D:\Projects\VisualStudio\APPZ4\FitnessClub.DAL\obj\Debug\net8.0-windows\FitnessClub.DAL.dll
+D:\Projects\VisualStudio\APPZ4\FitnessClub.DAL\obj\Debug\net8.0-windows\refint\FitnessClub.DAL.dll
+D:\Projects\VisualStudio\APPZ4\FitnessClub.DAL\obj\Debug\net8.0-windows\FitnessClub.DAL.pdb
+D:\Projects\VisualStudio\APPZ4\FitnessClub.DAL\obj\Debug\net8.0-windows\FitnessClub.DAL.genruntimeconfig.cache
+D:\Projects\VisualStudio\APPZ4\FitnessClub.DAL\obj\Debug\net8.0-windows\ref\FitnessClub.DAL.dll
